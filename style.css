@@ -41,6 +41,7 @@ body{
     font-size: 1100%;
 }
 #desc{
+    font-size: 130%;
     color: rgb(138, 138, 138);
 }
 
@@ -147,14 +148,14 @@ body{
     }
 
     #name {
-        margin-top: 80%;
-        font-size: 500%; /* Slightly larger font size for mobile */
+        margin-top: 95%;
+        font-size: 400%; /* Slightly larger font size for mobile */
     }
 
     #desc {
         margin-top: 5%;
         width: 70%;
-        font-size: 100%; /* Slightly larger font size for mobile */
+        font-size: 75%; /* Slightly larger font size for mobile */
     }
 
     #aboutMe1 h2{
