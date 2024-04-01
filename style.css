@@ -125,3 +125,35 @@ body{
     height: 100%;  
 }
 
+
+@media (max-width: 768px) {
+    #name {
+        font-size: 50%; /* Adjust font size for mobile */
+    }
+
+    #desc {
+        font-size: 80%; /* Adjust font size for mobile */
+    }
+
+    #aboutMe1 h2, #aboutMe1 h1 {
+        font-size: 100%; /* Adjust font size for mobile */
+    }
+
+    #aboutMe2 h3 {
+        font-size: 80%; /* Adjust font size for mobile */
+    }
+
+    #green_line1 h1, #green_line2 h1 {
+        font-size: 200%; /* Adjust font size for mobile */
+    }
+
+    #aboutMe1 img, #aboutMe2 img {
+        height: 15%; /* Adjust image size for mobile */
+    }
+
+    #green_line1, #green_line2 {
+        width: 100%; /* Adjust line width for mobile */
+        left: 0; /* Adjust line position for mobile */
+        right: 0; /* Adjust line position for mobile */
+    }
+}
