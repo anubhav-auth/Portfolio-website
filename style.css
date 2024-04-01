@@ -2,43 +2,38 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 html,body{
     height: 100%;
     width: 100%;
+    
+}
+
+body{
+    overflow-x: hidden ;
 }
 
 #main{
-   background-color: black;
-   width: 100%;
-   height: 100%;
-}
-
-
-
-#nav{
-    position: fixed;
-    color: white;
     width: 100%;
-    height: 10%;
-    align-items: center;
-    display: flex;
+    height: 100%;
+    
 }
 
-#nav_items{
-    margin-left: 10%;
-    display: flex;
-}
-#sig{
-    font-family: "Waterfall", cursive;
-    font-size: 220%;
-    color: white;
-    margin-left: 1%;
+#front_page{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background-image: url(assets/Untitled-3.jpg);
+    padding-left: 5%;
+    padding-top: 10%;
 }
 
-#nav h3{
-    margin: 25px;
+#name{
+    color: aliceblue;
+    font-size: 1100%;
+}
+#desc{
+    color: rgb(138, 138, 138);
 }
 
 #photo{
@@ -46,3 +41,87 @@ html,body{
     height: 100%;
     object-fit: cover;
 }
+
+#page_2{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    
+}
+
+#aboutMe{
+    display: flex;
+    padding: 5%;
+    justify-content: space-between;
+}
+
+
+#aboutMe1 h2{
+    font-size: 200%;
+    color: greenyellow;
+}
+
+#aboutMe1 h1{
+    font-size: 400%;
+    color: white;
+    padding-top: 5%;
+}
+
+#aboutMe1 img{
+    margin-top: 20%;
+    height: 20%;
+    rotate: -20deg;
+}
+
+#aboutMe2 img{
+    margin-bottom: 30%;
+    margin-left: 75%;
+    height: 25%;
+    rotate: -20deg;
+}
+
+#aboutMe2 h3{
+    line-height: 150%;
+    color: rgb(175, 174, 174);  
+    font-size: 115%;
+}
+
+#green_line1, #green_line2 {
+    position: absolute;
+    left: -5%;
+    right: -5%;
+    z-index: 1;
+    width: 110%;
+}
+
+#green_line1{
+    height: 10%;
+    margin-top: 5% ;
+    background-color: rgb(50, 90, 0);
+    rotate: -4deg;
+}
+
+#green_line1 h1{
+    font-size: 420%;
+    text-align: center;
+}
+
+#green_line2{
+    height: 10%;
+    margin-top: 5% ;
+    background-color: rgb(145, 253, 0);
+    rotate: 4deg;
+    box-shadow: 10px 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+#green_line2 h1{
+    font-size: 420%;
+    text-align: center;
+}
+
+#page_3{
+    background-color: black;
+    width: 100%;
+    height: 100%;  
+}
+
