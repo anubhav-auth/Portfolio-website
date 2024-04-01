@@ -197,12 +197,6 @@ body{
         rotate: 5deg;
     }
 
-    /* Additional Adjustments
-    #front_page {
-        background-size: cover; /* Ensure background image covers the entire area */
-        /* background-position: center; /* Center the background image */
-    /* } */ 
-
     #aboutMe {
         flex-direction: column; /* Stack elements vertically on mobile */
     }
