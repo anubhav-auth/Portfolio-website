@@ -149,23 +149,23 @@ body{
 
     #name {
         margin-top: 95%;
-        font-size: 400%; /* Slightly larger font size for mobile */
+        font-size: 400%; 
     }
 
     #desc {
         margin-top: 5%;
         width: 70%;
-        font-size: 75%; /* Slightly larger font size for mobile */
+        font-size: 75%; 
     }
 
     #aboutMe1 h2{
         font-size: 200%;
-        width: 100%; /* Slightly larger font size for mobile */
+        width: 100%; 
     }
 
     #aboutMe1 h1 {
         font-size: 140%;
-        width: 100%; /* Slightly larger font size for mobile */
+        width: 100%; 
     }
 
     #aboutMe2 h3 {
