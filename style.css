@@ -43,6 +43,7 @@ body{
 #desc{
     font-size: 130%;
     color: rgb(138, 138, 138);
+    width: 30%;
 }
 
 #photo{
@@ -101,10 +102,10 @@ body{
 
 #green_line1, #green_line2 {
     position: absolute;
-    left: -50%;
-    right: -50%;
+    left: -5%;
+    right: -5%;
     z-index: 1;
-    width: 200%;
+    width: 110%;
 }
 
 #green_line1{
@@ -121,6 +122,8 @@ body{
 #green_line1 h1{
     font-size: 420%;
     text-align: center;
+    white-space: nowrap;
+    /* overflow-x: auto; */
 }
 
 #green_line2{
@@ -138,6 +141,8 @@ body{
 #green_line2 h1{
     font-size: 420%;
     text-align: center;
+    white-space: nowrap;
+    /* overflow-x:auto; */
 }
 
 #page_3{
@@ -147,9 +152,6 @@ body{
 }
 
 
-/* Existing CSS */
-
-/* Media Query for Mobile Devices */
 @media (max-width: 768px) {
 
     body{
@@ -186,26 +188,26 @@ body{
     }
 
     #aboutMe2 h3 {
-        font-size: 95%; /* Slightly larger font size for mobile */
+        font-size: 95%; 
     }
 
     #aboutMe1 img, #aboutMe2 img {
-        height: 40%; /* Adjust image size for mobile */
+        height: 40%; 
         margin-top: 10%;
         margin-bottom: 10%;
     }
 
     #green_line1 h1, #green_line2 h1 {
-        font-size: 82%; /* Slightly larger font size for mobile */
+        font-size: 82%; 
         text-align: center;
         align-items: center;
     }
 
     #green_line1, #green_line2 {
         height: 3%;
-        width: 200%; /* Adjust line width for mobile */
-        left: -50%; /* Adjust line position for mobile */
-        right: -50%; /* Adjust line position for mobile */
+        width: 100%; 
+        left: 0; 
+        right: 0; 
     }
 
     #green_line1{
@@ -216,10 +218,10 @@ body{
     }
 
     #aboutMe {
-        flex-direction: column; /* Stack elements vertically on mobile */
+        flex-direction: column;
     }
 
     #aboutMe1, #aboutMe2 {
-        margin-bottom: 20px; /* Add space between elements on mobile */
+        margin-bottom: 20px;
     }
 }
