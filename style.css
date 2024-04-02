@@ -97,10 +97,10 @@ body{
 
 #green_line1, #green_line2 {
     position: absolute;
-    left: -5%;
-    right: -5%;
+    left: -50%;
+    right: -50%;
     z-index: 1;
-    width: 110%;
+    width: 200%;
 }
 
 #green_line1{
@@ -190,9 +190,9 @@ body{
 
     #green_line1, #green_line2 {
         height: 3%;
-        width: 100%; /* Adjust line width for mobile */
-        left: 0; /* Adjust line position for mobile */
-        right: 0; /* Adjust line position for mobile */
+        width: 200%; /* Adjust line width for mobile */
+        left: -50%; /* Adjust line position for mobile */
+        right: -50%; /* Adjust line position for mobile */
     }
 
     #green_line1{
